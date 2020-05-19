@@ -1,0 +1,64 @@
+body{
+    margin: 0 auto;
+    background-color: #D4D4D4;
+    text-align: justify;
+}
+.bgColor{
+    background-color: white;
+}
+
+.container{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.boxflexCol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+}
+.boxflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.picture{
+
+    margin: 40px auto;
+}
+header>img{
+    
+    border: 5px solid #B8B8B8;
+    border-radius: 50% 50% / 50% 50%;
+}
+
+h1{
+    text-align: center;
+    color: #D95555 ;
+}
+h2{
+    text-align: center;
+    color: #878787;
+}
+p{
+    color: #878787;
+    padding: 35px;
+}
+
+button{
+    margin: 0 auto;
+    background-color: #D95555;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.movie{
+    width: 100%;
+}
